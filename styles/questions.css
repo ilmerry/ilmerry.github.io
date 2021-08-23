@@ -111,7 +111,7 @@ body{
 
 @media (min-width: 320px) and (max-width: 480px) {
     body{
-        width: 400px;
-        height: auto;
+        width: 60%;
+        height: 80%;
     }
 }
