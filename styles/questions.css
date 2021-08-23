@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Song+Myung&display=swap');
 body{
     display: flex;
-    width: 768px;
+    width: 100%;
     background-color: rgb(36, 39, 38);
     font-family: 'Song Myung', serif;
     justify-content: center;
@@ -109,6 +109,9 @@ body{
     color: white;
 }
 
-@media all and (max-width: 1280px){
-
+@media (min-width: 320px) and (max-width: 480px) {
+    body{
+        width: 400px;
+        height: auto;
+    }
 }
