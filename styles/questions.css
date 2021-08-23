@@ -112,9 +112,10 @@ body{
         height: auto;
     }
     .css-header{
-        width: 80%;
+        width: 270px;
     }
     .css-border{
-        width: 80%;
+        width: 270px;
+        height: 540px;
     }
 }
