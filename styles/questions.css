@@ -17,7 +17,6 @@ body{
 .css-title{
     margin-top: 15vh;
     font-size: 30px;
-    text-align: center;
     color: white;
 }
 
@@ -105,16 +104,14 @@ body{
 
 @media (min-width: 320px) and (max-width: 480px) {
     .css-header{
-        width: 480px;
-        height: 800px;
+        width: 320px;
+        height: 480px;
     }
     .css-title{
-        margin-top: 1vh;
-        text-align: center;
-        width: 70vw;
+        margin-top: 0;
     }
     .css-border{
-        width: 120vw;
-        height: 50vh;
+        width: 150vw;
+        height: 20vh;
     }
 }
