@@ -103,7 +103,7 @@ body{
     color: white;
 }
 
-@media (min-width: 320px) and (max-width: 480px) {
+/* @media (min-width: 320px) and (max-width: 480px) {
     body{
         width: 200px;
         height: auto;
@@ -115,4 +115,4 @@ body{
         width: 270px;
         height: 540px;
     }
-}
+} */
