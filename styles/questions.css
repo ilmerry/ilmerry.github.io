@@ -105,8 +105,8 @@ body{
 
 @media (min-width: 320px) and (max-width: 480px) {
     .css-header{
-        width: 100%;
-        height: 100%;
+        width: 480px;
+        height: 800px;
     }
     .css-title{
         margin-top: 1vh;
