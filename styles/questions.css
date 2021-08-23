@@ -109,10 +109,12 @@ body{
         height: 100%;
     }
     .css-title{
+        margin-top: 1vh;
+        text-align: center;
         width: 70vw;
     }
     .css-border{
-        width: 100vw;
-        height: 80vh;
+        width: 120vw;
+        height: 50vh;
     }
 }
