@@ -31,7 +31,7 @@ body{
     width: 60vw;
     height: 70vh;
     border-radius: 10px;
-    margin-bottom: 24px;
+    margin-bottom: 10px;
 }
 
 .css-progressBar{
@@ -106,10 +106,14 @@ body{
 
 @media (min-width: 320px) and (max-width: 480px) {
     .css-title{
-        margin-top: 5vh;
+        margin-top: 10vh;
+        padding: 2px;
+        font-size:18px;
     }
+
     .css-border{
         width: 90vw;
         height: 60vh;
+        font-size: 12px;
     }
 }
