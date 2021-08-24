@@ -160,7 +160,7 @@ body{
     text-align: center;
 }
 
-@media all and (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 480px) {
     .css-title{
         margin-top: 5vh;
     }
