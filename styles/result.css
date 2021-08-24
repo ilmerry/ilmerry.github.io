@@ -161,14 +161,20 @@ body{
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
+    body{
+        height: 100%;
+    }
     .css-title{
         margin-top: 10vh;
         padding: 2px;
-        font-size:18px;
+        font-size: 24px;
     }
     .css-border{
         width: 90vw;
         height: 200vh;
         font-size: 12px;
+    }
+    .css-resultImg .css-resultTitle .css-ratings .css-resultExplain .css-match .css-restart{
+        padding: 4px;
     }
 }
