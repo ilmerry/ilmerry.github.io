@@ -167,14 +167,20 @@ body{
     .css-title{
         margin-top: 10vh;
         padding: 2px;
-        font-size: 24px;
+        font-size: 25px;
     }
     .css-border{
         width: 90vw;
-        height: 200vh;
+        height: 180vh;
         font-size: 12px;
     }
-    .css-resultImg .css-resultTitle .css-ratings .css-resultExplain .css-match .css-restart{
-        padding: 4px;
+    .css-resultImg .css-resultTitle .css-ratings{
+        padding: 10px;
+    } 
+    .css-resultExplain{
+        padding: 12px;
+    } 
+    .css-match .css-restart{
+        padding: 2px;
     }
 }
