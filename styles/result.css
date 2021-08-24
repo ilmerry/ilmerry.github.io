@@ -4,7 +4,7 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width:100%;
+    width: 98vw;
     background-color: rgb(36, 39, 38);
     font-family: 'Song Myung', serif;
     animation: fadein 2s;
@@ -39,7 +39,7 @@ body{
     flex-direction: column;
     background-color: white;
     margin-top: 4vh;
-    width: 90vw;
+    width: 60vw;
     height: 200vh;
     border-radius: 10px;
 }
