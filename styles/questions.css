@@ -18,6 +18,7 @@ body{
     margin-top: 15vh;
     font-size: 30px;
     color: white;
+    text-align: center;
 }
 
 .css-border{
@@ -103,15 +104,4 @@ body{
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
-    .css-header{
-        width: 320px;
-        height: 480px;
-    }
-    .css-title{
-        margin-top: 0;
-    }
-    .css-border{
-        width: 150vw;
-        height: 20vh;
-    }
 }
