@@ -165,7 +165,7 @@ body{
         height: 230vh;
     }
     .css-title{
-        margin-top: 10vh;
+        margin-top: 5vh;
         padding: 2px;
         font-size: 25px;
     }
@@ -176,13 +176,13 @@ body{
     }
     .css-resultImg{
         margin: 10px;
-        width: 40vh;
+        width: 60vw;
     } 
     .css-resultTitle .css-ratings{
         padding: 10px;
     } 
     .css-resultExplain{
-        padding-left: 40px;
-        padding-right: 40px;
+        margin-top: 5vh;
+        width: 60vw;
     } 
 }
