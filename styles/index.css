@@ -92,3 +92,19 @@ body{
     font-size: 12px;
     top: 30px;
 }
+
+@media (min-width: 320px) and (max-width: 480px) {
+    body{
+        height: 100%;
+    }
+    .css-title{
+        margin-top: 5vh;
+        padding: 2px;
+        font-size: 25px;
+    }
+    .css-border{
+        width: 90vw;
+        height: 70vh;
+        margin-bottom: 10px;
+    }
+}
