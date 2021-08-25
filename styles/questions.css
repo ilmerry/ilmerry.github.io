@@ -35,8 +35,7 @@ body{
 }
 
 .css-progressBar{
-    position: absolute;
-    top: 15%;
+    position: relative;
     width: 70%;
     height: 16px;
     pointer-events: none;
