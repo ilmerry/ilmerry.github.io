@@ -174,13 +174,15 @@ body{
         height: 180vh;
         font-size: 12px;
     }
-    .css-resultImg .css-resultTitle .css-ratings{
+    .css-resultImg{
+        margin: 10px;
+        width: 40vh;
+    } 
+    .css-resultTitle .css-ratings{
         padding: 10px;
     } 
     .css-resultExplain{
-        padding: 20px;
+        padding-left: 40px;
+        padding-right: 40px;
     } 
-    .css-match .css-restart{
-        padding: 2px;
-    }
 }
