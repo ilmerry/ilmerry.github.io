@@ -131,7 +131,7 @@ function handleChoice1(){
     }
     else resultJudgement();
     
-    resetButtonStyle();
+    //resetButtonStyle();
     choice1.addEventListener("click", handleChoice1);
     choice2.addEventListener("click", handleChoice2);
     if(i >= 1){
@@ -152,7 +152,7 @@ function handleChoice2(){
     }
     else resultJudgement();
     
-    resetButtonStyle();
+    //resetButtonStyle();
     choice1.addEventListener("click", handleChoice1);
     choice2.addEventListener("click", handleChoice2);
     if(i >= 1){
