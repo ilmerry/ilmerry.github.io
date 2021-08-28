@@ -96,21 +96,6 @@ function resultJudgement(){
     resultLoader();
 }
 
-// function fadeIn(){
-//     let op = 0;
-//     body.style.opacity = op;
-//     let id = setInterval(frame, 10);
-
-//     function frame(){
-//         if(body.style.opacity == 1){
-//             clearInterval(id);
-//         } else{
-//             op += 0.01;
-//             body.style.opacity = op;
-//         }
-//     }
-// }
-
 function pgbarAnimation(){
     const preval = pgbar.value;
     let id = setInterval(frame, 10);
@@ -122,6 +107,16 @@ function pgbarAnimation(){
             pgbar.value += 0.5;
         }
     }
+}
+
+function resetButtonStyle(){
+    backgroundColor1 = choice1.style.background-color;
+    backgroundColor2 = choice2.style.background-color;
+
+    choice1.style.color = "black";
+    choice2.style.color = "black";
+    backgroundColor1 = "white";
+    backgroundColor2 = "white";
 }
 
 function handleChoice1(){
@@ -136,6 +131,7 @@ function handleChoice1(){
     }
     else resultJudgement();
     
+    resetButtonStyle();
     choice1.addEventListener("click", handleChoice1);
     choice2.addEventListener("click", handleChoice2);
     if(i >= 1){
@@ -156,6 +152,7 @@ function handleChoice2(){
     }
     else resultJudgement();
     
+    resetButtonStyle();
     choice1.addEventListener("click", handleChoice1);
     choice2.addEventListener("click", handleChoice2);
     if(i >= 1){
